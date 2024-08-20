@@ -1,0 +1,77 @@
+.conteudo-container{
+    background-color: #e23e57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img-logo{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 65%;
+    width: 25%;
+   
+     
+}
+
+.conteudo-p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+   
+}
+p{
+    font-size: large;  
+    text-decoration:none;
+    color: #ffff;
+    letter-spacing: 1px;
+    
+}
+.p1{
+    font-size: 30px;  
+}
+.p2{
+    font-size: 20px;  
+}
+.p3{
+    font-size: 25px;
+    color: #ffff;  
+}
+.conteudo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #ef97a4;
+   
+}
+.conteudo-footer-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 50%;
+}
+.conteudo-footer-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.img-seta{
+    height: 20%;
+}
+.img-camisas{
+    border-radius: 10%;
+    height: 30%;
+    cursor: pointer;
+}
+.img-camisas:hover{
+    border-radius: 10%;
+    height: 35%;
+    cursor: pointer;
+}
+
