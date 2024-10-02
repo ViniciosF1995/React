@@ -75,3 +75,60 @@ p{
     cursor: pointer;
 }
 
+.botao{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.display {
+    margin-top: 20px; 
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.botaoSenha {
+    background-color: #e23e57; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin: 5px; 
+    transition: background-color 0.3s ease; 
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .display ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .display li {
+    background-color: #f9f9f9; 
+    margin: 5px 0; 
+    padding: 8px; 
+    border-radius: 4px; 
+    text-align: center;
+  }
+
+  .telaSenha{
+    background-color: #e2184a;
+
+  }
+
+  
+
+
+
